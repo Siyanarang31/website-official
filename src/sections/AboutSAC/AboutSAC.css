@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Space-Age;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/HomePage/space_age.woff');
+}
+
+
+.sac-21{
+    /* background-image: url('../../assets/SAC2021/black_water_darkened.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    width: 100vw;
+    line-height: normal;
+}
+
+/* .sac21-about{
+    display :grid;
+    grid-template-columns: 50% 50%;
+    padding: 1.5% 0;
+    justify-content: space-around;
+} */
+
+.sac21-about{
+    display :grid;
+    grid-template-columns: 90%;
+    padding: 1.5% 0;
+    justify-content: space-around;
+}
+
+.flex-one, .flex-two, .flex-three{
+    display: flex;
+}
+.sac21-abt-content{
+    padding: 8% 0;
+}
+
+.sac21-abt-head{
+    color: #f15831;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+
+.sac21-abt-img{
+    text-align: center;
+    padding: 4% 0;
+}
+.sac21-abt-img img{
+    width : 600px;
+}
+
+.sac21-abt-text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-align:justify;
+    padding: 2% 5%;
+}
+
+.sac21-heading{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 5em;
+    text-align: center;
+    padding : 2% 1.5%;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .sac21-heading{
+        font-size: 2em;
+    }
+
+    .sac21-abt-head{
+        padding: 10px;
+        font-size: 1.2em;
+        padding-top: 30px;
+    }
+
+    .sac21-abt-text{
+        font-size: 1.5em;
+        padding: 20px 20px 10px 20px;
+    }
+    .sac21-about{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+
+    .sac21-abt-img img{
+        width : 260px;
+    }
+
+    .flex-one, .flex-three{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-two{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sac21-abt-text{
+        font-size: 0.8em;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 600px)
+{
+    
+    .sac21-about{
+        display :grid;
+        grid-template-columns: 90%;
+        padding: 1.5% 0;
+        justify-content: space-around;
+    }
+    
+    .flex-one, .flex-two, .flex-three{
+        display: flex;
+    }
+    .sac21-abt-content{
+        padding: 4% 0;
+    }
+    
+    .sac21-abt-head{
+        font-size: 1.6em;
+    }
+    
+    .sac21-abt-img{
+        text-align: center;
+        padding: 4% 0;
+    }
+    .sac21-abt-img img{
+        width : 330px;
+    }
+    
+    .sac21-abt-text{
+        font-size: 0.9em;
+        padding: 2% 5%;
+    }
+    
+    .sac21-heading{
+        font-size: 3em;
+        text-align: center;
+        padding : 2% 1.5%;
+    
+    }
+}
+
+@media only screen and (min-width: 1024px) and(max-width:1370px){
+    /* .sac21-abt-text{
+        
+        padding: 0% 5% 0% 5%;
+        
+    }
+    .sac21-heading{
+        padding: 0% 5% 0% 5%;
+    
+    }
+} */
+.sac21-abt-img{
+    text-align: center;
+    padding: 13% 0;
+}
+}

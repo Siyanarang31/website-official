@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.contact-media1,.contact-media2{
+    text-align: center;
+}
+
+.cntct-media-text{
+    background-color: rgba(255, 255, 255, 0)!important;
+    border:none!important;
+    padding: 2% 15% 2% 3%;
+    text-align: right!important;
+    transition: color 0.3s;
+    width:75%;
+    margin: 1% 0;
+
+    font-family: Montserrat!important;
+    font-style: normal!important;
+    font-weight: 600 !important;
+    color : white !important; 
+    font-size: 1.0em!important;
+}
+
+
+
+.cntct-media-text:hover{
+    color: #f15831!important;
+}
+
+.cntct-media-text:focus{
+    outline: none;
+}
+
+.contact-address{
+    padding: 10% 0 10% 5%;
+    font-size: 1.25em;
+}
+
+.contact-footer{
+    width: 100vw;
+    background: #333030;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 4% 20% 38% 38%;
+    height:60%;
+    overflow-y: hidden;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600 ;
+    color : white ; 
+    font-size: 1em;
+}
+
+.contact-orangeblock{
+    background-color: #f15831;
+    height: auto;
+}
+
+.contact-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2em;
+    color: #f15831;
+    padding: 1% 0 1% 5%;
+}
+
+.footer-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: white;
+    padding: 1% 0 1% 1%;
+    
+}
+
+.myLogo{
+    color: #f15831;
+    transition: color 0.3s ;   
+}
+
+.fa-instagram:hover, .fa-facebook-square:hover, .fa-linkedin:hover, .fa-envelope:hover, .fa-phone:hover{
+    color :white;
+}
+
+@media screen and (max-width:870px) {
+    .contact-orangeblock{
+        display: none;
+    }
+    .contact-grid{
+        display: grid;
+        grid-template-columns: 60%;
+        justify-content: center;
+        
+    }
+    .cntct-media-text{
+        text-align: center!important;
+        width: 80%;
+    }
+    .contact-footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .contact-address{
+        font-size: 1em;
+    }
+    .cntct-media-text{
+        font-size: 0.9em!important;
+    }
+    .contact-grid{
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .cntct-media-text{
+        font-size: 0.52em!important;
+    }
+}
+
+@media screen and (min-width:870px)and (max-width:1050px) {
+    .cntct-media-text{
+        font-size: 0.81em!important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .contact-footer{
+        width: 101vw;
+    }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.moddisp{
+   color:white;
+  font-family: 'Montserrat';
+  font-style: "SemiBold";
+  font-size:30px;
+  text-align: center;
+  align-self: center;
+  padding: 30px;
+  background-color: black;
+  background-image: url(../../assets/projects/CanSat.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  border-radius: 100px;
+
+}
+.my-modal{
+  max-width:80%!important;
+  display:block;
+  border-radius: 100px!important;
+  text-align: center!important;
+
+}
+
+.modal-title{
+  font-family: 'Montserrat'!important;
+  text-align: center!important;
+  font-size: 40px!important;
+  font-weight:bold!important;
+  align-self: center!important;
+  display: "flex"!important;
+  margin:0 22%!important;
+
+}
+.modal-content{
+  border-radius: 100px!important;
+
+}
+.modal-header {
+  border-bottom: 0 none !important;
+  
+}
+
+@media screen and (max-width:1130px) {
+  .my-modal{
+    width: 60%!important;
+    height: auto;
+    font-size: 0.9em!important;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .logop{
+    display: none;
+  }
+}

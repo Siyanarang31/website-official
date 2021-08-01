@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@font-face {
+    font-family: Space-Age;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/HomePage/space_age.woff');
+}
+
+.sponsor-page{
+    background-image:url(../../assets/Sponsorship/black_sand_darkened.png) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     /* background-attachment: fixed; */
+    width : 100vw;
+    
+    
+}
+
+.spon-card-heading{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+
+    padding : 5% 0;
+}
+
+.spon-grid-1{
+    display : grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.spon-grid-2{
+    display : grid;
+    grid-template-columns: auto;
+    justify-content: center;
+
+    border-left: 50px solid #f15831;
+}
+
+.spon-heading{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 10vh;
+
+    text-align: center;
+}
+
+.spon-logos{
+    width : 30vw;
+    padding: 15% 0;
+}
+
+
+.spon-us-heading{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    
+    text-align: center;
+
+    padding: 2% 0 5% 0;
+
+    border-right : 50px solid #f15831;
+    border-left : 50px solid #f1573100
+}
+
+.spon-logos img{
+    width : 100%;
+}
+.spon-logos img:hover{
+    transform: scale(1.1);
+}
+
+.spon-logos-loans{
+    width : 30vw;
+    padding: 40% 0;
+}
+.spon-logos-loans img{
+    width: 100%;
+}
+
+.spon-logos-loans img:hover{
+    transform: scale(1.2);
+    transition:all 0.2s ease ;
+}
+
+
+.spon-us-cards{
+    width : 45vw;
+    height : 100vh;
+    background-color : #484444;
+    border-radius : 15px;
+}
+
+.spon-us-grid{
+    display : grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+
+    padding :2% 0 7% 0;
+}
+
+.star-spon-logo{
+    width : 40vw;
+    padding: 5% 0 20% 0;
+}
+
+.star-spon-logo img{
+    width: 100%;
+}
+
+.star-spon-logo img:hover{
+    transform: scale(1.2);
+    transition:all  0.2s ease;
+}
+@media screen and (max-width: 300px) {
+    .spon-heading{
+        font-size: 2vh;
+     }
+     .spon-grid-1{
+        padding-top: 8%;
+    }
+    .spon-grid-2{
+        padding-right: 10%;
+        padding-top: 7%;
+    
+        border-left: 20px solid #f15831;
+    }
+}
+@media  only screen and  (max-width: 630px) and (min-width:300px){
+.spon-heading{
+    font-size: 3.7vh;
+ }
+ .spon-grid-1{
+    padding-top: 7%;
+}
+.spon-grid-2{
+    padding-right: 13%;
+    padding-top: 7%;
+
+    border-left: 26px solid #f15831;
+}
+}
+@media  only screen and  (min-width: 0px) and (max-width:300px){
+    .spon-heading{
+        font-size: 3vh;
+     }
+}
+@media  only screen and  (min-width: 630px) and (max-width:730px){
+    .spon-heading{
+        font-size: 4vh;
+     }
+     .spon-grid-2{
+        padding-right: 10%;
+        padding-top: 7%;
+    
+        border-left: 26px solid #f15831;
+    }
+}
+    @media  only screen and  (min-width: 730px) and (max-width:770px){
+        .spon-heading{
+            font-size: 5vh;
+         }
+         .spon-grid-2{
+            padding-right: 4%;
+            padding-top: 7%;
+        
+            border-left: 26px solid #f15831;
+        }
+    }
+        @media  only screen and  (min-width: 770px) and (max-width:1025px){
+            .spon-heading{
+                font-size: 4vh;
+             }
+             .sponsor-page{
+                height: 100vh;
+                position: static;
+               
+            }
+    } 

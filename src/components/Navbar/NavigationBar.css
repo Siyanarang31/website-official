@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.nb-div{ 
+    background : #050505;
+    background-color: black!important;
+    display: fixed; 
+    /* position: fixed;
+    height:80px;   */
+    
+}
+
+
+
+.nav-link{
+    /* font-size:13px;
+    height:31px; */
+    /* background-color: black!important; */
+    color : white !important;
+    font-family: 'Montserrat', sans-serif!important;
+    /* padding: 2.5vh 2vw !important; */
+    display: inline!important;
+    /* float : right!important; */
+    /* margin-top: 5%!important; */
+    transition: color 0.2s !important;
+    /* padding: 0 5px 0.5rem 1rem !important; */
+}
+.dropdown-menu {
+    background:#050505 !important ;
+}
+.dropdown-menu > a {
+    display: list-item !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(250, 250, 250, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")  !important;
+}
+.navbar-light .navbar-toggler {
+    color: white !important;
+    border-color: white !important;
+}
+
+.nav-link:hover{
+    color : #f15831!important;
+    cursor: pointer!important;
+}
+
+
+.team-logo{
+    float: left;
+    margin-left: 4vw;
+    width:40%;
+    /* padding-top:0!important;
+    padding-bottom:0!important; */
+}
+.navbar-brand{
+    padding-top:0!important;
+    padding-bottom:0!important;
+}
+
+ /* .navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}  */
+.dropdown-menu.show {
+
+    display: block;
+    padding: 0;
+}
+/* .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+} */
+.bg-dark {
+    background-color: black!important;
+}
+.navbar {
+    display: flex!important;
+    flex-wrap: wrap!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+    padding: 0.5rem 1rem!important;
+   
+}
+.flex-column {
+    flex-direction: column !important;
+}
+
+.navbar-expand {
+    flex-flow: row nowrap;
+     justify-content: flex-start; 
+}
+ .navbar {
+     /* position: relative;  */
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    /* position: fixed; 
+     top: 0; 
+    transition: top 0.3s;  */
+ }   
+
+/* #navbar1{
+    position: fixed; 
+    top: 0; 
+    transition: top 0.3s; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background : #050505;
+    background-color: black!important;
+    height:80px;
+
+} */
+ /* #navbar1{
+    /* position: fixed; */
+    
+    /* top: 0; */
+    /* width: 100%; */
+    /* display: block;  */
+    /* z-index: 1030;
+    transition: top 0.3s; */
+    /* background-color: #050505;*/
+    /* padding-top:0 ;  */
+      
+ /* }    */
+/* 
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+/* .stuck .sticky-top {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+} */ 

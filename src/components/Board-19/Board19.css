@@ -1,0 +1,32 @@
+.board-19{
+    padding-bottom: 7%;
+}
+
+
+.b19-grid-1{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    margin-bottom : 2%;
+}
+
+.b19-grid-2{
+    
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 10vw;
+}
+
+@media screen and (max-width:695px) {
+    .b19-grid-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .b19-grid-2{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 0;
+        justify-content: space-around;
+    }
+}

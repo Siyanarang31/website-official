@@ -1,0 +1,9 @@
+.my-big-slide{
+    display: block;
+}
+
+@media screen and (max-width:1025px) {
+    .my-big-slide{
+        display: none;
+    }
+}

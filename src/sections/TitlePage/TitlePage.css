@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Space-Age;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/HomePage/space_age.woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+/* EARLIER CODE-------------------- */
+/* .team-name{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 6em;
+    height: 15vh;
+}
+
+.title{
+    display: inline;
+    float: left;
+    margin-left: 2vw;
+    padding : 10vh 0;    
+}
+
+
+
+.title-container{
+    position: relative;
+    top : 13vh;
+}
+
+.title-text{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 4% 0;
+}
+
+.title-page{
+    height: 87vh;
+    width: 100vw;
+}
+
+.tpage-staticblock-left{
+    background: #f15831;
+    width : 3vw;
+    height : 60vh;
+
+
+    display: inline;
+    float: left;
+}
+
+@media screen and (max-width:630px) {
+    .team-name{
+        font-size: 4em;
+        height: 10vh;
+    }
+} */
+
+/* EARLIER CODE-------------------- */
+
+
+.title-name{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 5.5em;
+    line-height: normal;
+}
+
+.team-caption{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+
+.title-content{
+    padding: 10% 0 7% 3%;
+}
+
+.title-page{
+    /* height: 87vh; */
+    width: 100vw;
+    padding: 13% 0 8% 0;
+}
+
+.title-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 70%;
+}
+.title-left{
+    border-left: 2.7vw solid #f15831;
+}
+
+@media screen and (max-width:768px){
+    
+    .title-name{
+        /* height: 30%; */
+        font-size: 4em;
+    }
+    .team-caption{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .title-grid{
+        display: grid;
+        grid-template-columns: 60%;
+    }
+    .title-name{
+        /* height: 30%; */
+        font-size: 2em;
+    }
+    .team-caption{
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width:376px) and (min-width:320px){
+    .title-grid{
+        display: grid;
+        grid-template-columns: 60%;
+    }
+    .title-name{
+        /* height: 30%; */
+        font-size: 2em;
+    }
+    .team-caption{
+        font-size: 0.5em;
+    }
+}
+
+@media screen  and (max-width:320px){
+    .team-caption{
+        font-size: 0.4em;
+    }
+}

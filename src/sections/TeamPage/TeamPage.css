@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@font-face {
+    font-family: Space-Age;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/HomePage/space_age.woff');
+}
+
+
+.ourt-heading{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 9.6vh;
+
+    text-align: center;
+    padding: 1.5%;
+    border-right: 50px solid #f15831;
+    border-left: 50px solid rgba(95, 30, 30, 0);
+
+}
+
+
+
+.team-page{
+    width : 100vw;
+    background-image:url(../../assets/OurTeam/black_stone_darkened.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:695px) {
+    .ourt-heading{
+        font-size: 7vh;
+    }
+        
+}
+
+@media screen and (max-width:610px) {
+    .ourt-heading{
+        font-size: 5vh;
+        border: 0;
+    }
+    
+}

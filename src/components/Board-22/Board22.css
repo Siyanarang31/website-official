@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.b22-grid-1{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    row-gap: 3%;
+    padding-bottom : 2%;
+}
+.b22-grid-2{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-bottom: 2%;
+    
+}
+
+
+.board-22{
+    padding-bottom:9%;
+}
+
+.board-year{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6em;
+    color: #FFFFFF;
+
+    text-align: center;
+    padding: 1% 0 3% 0;
+}
+
+
+@media screen and (max-width: 695px) {
+    .board-year{
+        font-size: 1.3em;
+    }
+    .b22-grid-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .b22-grid-2{
+        padding: 15% 0 2% 0;
+    }
+    
+    .member-name{
+        font-size: 1em;
+    }
+    .board-22{
+        padding-bottom: 25%;
+    }
+}

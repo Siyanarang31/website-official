@@ -1,0 +1,11 @@
+.my-csat-slide{
+    width: 50vw;
+    margin: auto;
+    display: none;
+}
+
+@media screen and (max-width:1025px){
+    .my-csat-slide{
+        display: block;
+    }
+}

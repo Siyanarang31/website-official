@@ -1,0 +1,366 @@
+@font-face {
+    font-family: Space-Age;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/HomePage/space_age.woff');
+}
+
+.Agatsya{
+    line-height: normal;
+}
+
+.agat-details{
+    background: rgba(72, 68, 68, 0.5);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4em;
+
+    padding : 2% 7% 7% 7%;
+    border-radius: 8px;
+}
+
+.agat-detail-card{
+    padding-top: 4%;
+}
+
+.agat-head{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 3.8em;
+    text-align: center;
+    padding : 4% 0;
+    /* margin-top: 1% ; */
+}
+
+.agat-grid{
+    display: grid;
+    grid-template-columns: 31% 38% ;
+    justify-content: space-evenly;
+    /* height: 60vh; */
+}
+
+.agat-model img{
+    width: 100%;
+}
+
+.agat-params{
+    border-bottom: 3px solid white;
+    padding: 4%;
+    margin-top: 2%;
+}
+
+.agat-subs-grid{
+    display : grid;
+    grid-template-columns : 30% 30%;
+    justify-content: space-evenly;
+}
+
+
+
+.myParam{
+    display: inline;
+    padding: 1% 0;
+}
+.myParam-value{
+    display: inline;
+    float: right;
+}
+
+
+.pimac{
+    display : grid;
+    grid-template-columns: 45% 40%;
+    justify-content: space-evenly;
+    padding-bottom: 8%;
+}
+
+.pimac-desc{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4em;
+    padding: 7%;
+    text-align: justify;
+}
+
+.pimac-head{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 3.8em;
+    text-align: center;
+    padding : 2% 0 2% 0;
+}
+
+.pimac-pic{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.pimac-pic img{
+    width:100%;
+}
+
+.subs-card{
+    /* height: 130vh;
+    width : 100%;
+    background: #484444;
+    border-radius: 20px;
+    margin : 5% 0;
+    padding: 0.2% 0 3% 0;
+    text-align: justify; */
+    width : 100%;
+    background: #484444;
+    border-radius: 20px;
+    margin : 5% 0;
+    padding: 0.2% 0 3% 0;
+    text-align: justify;
+}
+
+.subs-head{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6em;
+    background-color: #f15831;
+    
+    
+    text-align: center;
+    width : 60%;
+    margin: 3% auto;
+    padding: 2% 5%;
+    border-radius: 100px;
+
+}
+
+.subs-img{
+    width : 70%;
+    margin : auto;
+}
+.subs-img img{
+    width: 100%;
+}
+
+.subs-content{
+    padding: 7% 14% 0 14%;
+}
+
+.subs-desc{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .agat-head{
+        font-size: 2em;
+        padding : 3% 0;
+    }
+    .subs-head{
+        font-size: 0.8em;
+        padding: 5px 5px;
+    }
+    .subs-desc{
+        font-size: 1em;
+    }
+
+    .pimac-head{
+        font-size: 3em;
+    }
+    .pimac-desc{
+        font-size: 1em;
+    }
+
+    .agat-details{
+        width: 270px;
+        font-weight: 600;
+        font-size: 0.8em;
+        padding : 5%;
+        border-radius: 8px;
+        text-align: left;
+    }
+    .agat-model{
+       height: 170px;
+       width: 170px;
+       margin: 20px 50px;
+
+    }
+
+    .agat-detail-card{
+        height: fit-content;
+        width: fit-content;
+        padding: 0%;   
+    }
+
+    .subs-content{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .agat-params{
+        width: 230px;
+        margin: 3%;
+    }
+
+    .agat-grid{
+        display: grid;
+        grid-template-columns: 270px;
+        text-align: center;
+        /* justify-content: space-evenly; */
+    }
+
+    .subs-card{
+        /* height:50vh; */
+        height: fit-content;
+        width: 260px;
+    }
+
+    .agat-subs-grid{
+        display: grid;
+        grid-template-columns: 270px;
+        height: fit-content;
+    }
+    .subs-desc{
+        font-size: 0.6em;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .pimac{
+        grid-template-columns: 300px;
+    }
+    
+    .pimac-head{
+        font-size: 2.5em;
+        padding : 5% 0 5% 0;
+    }
+
+    .pimac-desc{
+        font-size: 0.7em;
+        padding: 10px;
+    }
+
+    .pimac-pic img{
+        width:100%;
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 600px)
+{
+    .agat-head{
+        font-size: 2.3em;
+        padding : 3% 0;
+    }
+    .subs-head{
+        font-size: 1em;
+        padding: 10px 10px;
+    }
+    .subs-desc{
+        font-size: 1em;
+    }
+
+    .pimac-head{
+        font-size: 3em;
+    }
+    .pimac-desc{
+        font-size: 1em;
+    }
+
+    .agat-details{
+        font-weight: 600;
+        font-size: 0.8em;
+        padding : 5%;
+        text-align: left;
+        border-radius: 8px;
+    }
+    .agat-model{
+       height: 270px;
+       width: 270px;
+       margin: 20px 41px;
+       margin-top: 55px;
+
+    }
+
+    .agat-detail-card{
+        width: 300px;
+        padding: 0%;   
+    }
+
+    .agat-params{
+        width: 255px;
+        margin: 3%;
+    }
+
+    .agat-grid{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .subs-img{
+        width: 300px;
+    }
+    .subs-card{
+        /* height: 130vh; */
+        /* height: fit-content; */
+        height: 37vh;
+        width: 340px;
+        padding: 10px;
+    }
+
+    .subs-content{
+        height: fit-content;
+        padding: 3%;
+        padding-top: 10%;
+    }
+
+    .agat-subs-grid{
+        display : grid;
+        grid-template-columns : 350px 350px;
+        grid-column-gap: 25px;
+        justify-content: center;
+
+    }
+    .subs-desc{
+        font-size: 0.8em;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .pimac{
+        grid-template-columns: 650px;
+    }
+    
+    .pimac-head{
+        font-size: 2.8em;
+        padding : 5% 0 5% 0;
+    }
+
+    .pimac-desc{
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .pimac-pic img{
+        width:100%;
+        padding-top: 30px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .subs-card{
+        height: 63vh;
+    }
+}

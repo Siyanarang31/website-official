@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Space-Age;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/HomePage/space_age.woff');
+}
+
+.legacy-heading{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 10vh;
+    text-align: center;
+    padding: 1.5%;
+
+}
+
+.legacy-timeline{
+    width: 35vw;
+    z-index: 3;
+    position: absolute;
+    left: 32.5vw;
+    right: 32.5vw;
+}
+
+.legacy-timeline img{
+    width:100%;
+}
+
+.our-legacy{
+    background-image: url(../../assets/Achievements/black_carbon_darkened.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 25%;
+
+}
+
+.ourl-backimages{
+    width: 100vw;
+}
+
+.ourl-img1,.ourl-img2, .ourl-img3, .ourl-img4{
+    width : 100%;
+}
+
+
+
+.ourl-img1 img,.ourl-img2 img, .ourl-img3 img, .ourl-img4 img{
+    width : 35%;
+    z-index: 2;
+}   
+
+.ourl-img1,.ourl-img3{
+    text-align: left;
+}
+
+.ourl-img2,.ourl-img4{
+    text-align: right;
+}
+
+@media screen and (max-width:1024px) {
+    .legacy-heading{
+        font-size: 7.5vh;
+    }
+}
+@media screen and (max-width:500px) {
+    .ourl-img3{
+        text-align: left;
+        position:relative;
+        right:14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
